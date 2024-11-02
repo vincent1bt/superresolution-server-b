@@ -10,6 +10,6 @@ In this repository, you can find the code for Server B (Celery, TensorFlow, Dock
 
 Inside the *app/models** folder you can find two different models, *gan_model* can be used to test the infrastructure without any GPU, this model only transforms color images to black and white images.  *ema_gan_model* is the main model used when a GPU can be attached to the Server B instance.
 
-Celery allows us to use the Publish-Subscribe Pattern to communicate Server A and Server B. A more detailed explanation can be found in [this blog post](https://vincentblog.xyz/posts/serving-deep-learning-models-using-the-publish-subscribe-pattern).
+Celery allows us to use the Publish-Subscribe Pattern to communicate Server A and Server B. A more detailed explanation can be found in [this blog post](https://vincentblog.link/posts/serving-deep-learning-models-using-the-publish-subscribe-pattern).
 
 ![infrastructure preview](https://res.cloudinary.com/vincent1bt/image/upload/c_scale,w_916/v1643836568/tf_server_app/Screen_Shot_2022-01-30_at_17.15.11.jpg)
